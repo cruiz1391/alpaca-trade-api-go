@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/alpacahq/alpaca-trade-api-go/common"
+	"github.com/cruiz1391/alpaca-trade-api-go/common"
 	"github.com/gorilla/websocket"
 )
 

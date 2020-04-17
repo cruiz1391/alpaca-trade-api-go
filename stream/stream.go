@@ -3,8 +3,8 @@ package stream
 import (
 	"sync"
 
-	"github.com/alpacahq/alpaca-trade-api-go/alpaca"
-	"github.com/alpacahq/alpaca-trade-api-go/polygon"
+	"github.com/cruiz1391/alpaca-trade-api-go/alpaca"
+	"github.com/cruiz1391/alpaca-trade-api-go/polygon"
 )
 
 var (

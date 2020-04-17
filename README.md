@@ -1,14 +1,14 @@
 # alpaca-trade-api-go
 
-[![CircleCI Status](https://circleci.com/gh/alpacahq/alpaca-trade-api-go.svg?style=svg)](https://circleci.com/gh/alpacahq/alpaca-trade-api-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/alpacahq/alpaca-trade-api-go)](https://goreportcard.com/report/github.com/alpacahq/alpaca-trade-api-go)
+[![CircleCI Status](https://circleci.com/gh/cruiz1391/alpaca-trade-api-go.svg?style=svg)](https://circleci.com/gh/cruiz1391/alpaca-trade-api-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/cruiz1391/alpaca-trade-api-go)](https://goreportcard.com/report/github.com/cruiz1391/alpaca-trade-api-go)
 
 `alpaca-trade-api-go` is a Go library for the Alpaca trade API. It allows rapid trading algo development easily, with support for the both REST and streaming interfaces. For details of each API behavior, please see the online API document.
 
 ## Installation
 
 ```
-$ go get github.com/alpacahq/alpaca-trade-api-go
+$ go get github.com/cruiz1391/alpaca-trade-api-go
 ```
 
 ## Example
@@ -22,8 +22,8 @@ import (
     "os"
     "fmt"
 
-    "github.com/alpacahq/alpaca-trade-api-go/alpaca"
-    "github.com/alpacahq/alpaca-trade-api-go/common"
+    "github.com/cruiz1391/alpaca-trade-api-go/alpaca"
+    "github.com/cruiz1391/alpaca-trade-api-go/common"
 )
 
 func init() {
@@ -59,10 +59,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/alpacahq/alpaca-trade-api-go/alpaca"
-	"github.com/alpacahq/alpaca-trade-api-go/common"
-	"github.com/alpacahq/alpaca-trade-api-go/polygon"
-	"github.com/alpacahq/alpaca-trade-api-go/stream"
+	"github.com/cruiz1391/alpaca-trade-api-go/alpaca"
+	"github.com/cruiz1391/alpaca-trade-api-go/common"
+	"github.com/cruiz1391/alpaca-trade-api-go/polygon"
+	"github.com/cruiz1391/alpaca-trade-api-go/stream"
 )
 
 func main() {
@@ -117,4 +117,4 @@ You can also instead use the function `alpaca.SetBaseUrl("https://paper-api.alpa
 
 ## GoDoc
 
-For a more in-depth look at the SDK, see the [GoDoc](https://godoc.org/github.com/alpacahq/alpaca-trade-api-go)
+For a more in-depth look at the SDK, see the [GoDoc](https://godoc.org/github.com/cruiz1391/alpaca-trade-api-go)
